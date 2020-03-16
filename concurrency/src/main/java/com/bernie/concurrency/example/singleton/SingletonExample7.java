@@ -8,7 +8,7 @@ import com.bernie.concurrency.annotations.ThreadSafe;
  *
  * @Description 枚举模式的单例，是最安全的方式。
  * 相对懒汉模式在安全性容易保证；
- * 相对饿汉模式在实际屌用才做初始化，在后续使用可以直接取到值，不会资源浪费。
+ * 相对饿汉模式在实际调用才做初始化，在后续使用可以直接取到值，不会资源浪费。
  * @Author Bernie【xiongyun100@163.com】
  * @Date 2020/2/22
  */
